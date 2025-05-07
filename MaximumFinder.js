@@ -1,19 +1,19 @@
 //////////////// using built in methods ///////////////
 
-function maxFinder(arr){
-    let maximumVal=Math.max(...arr)
+function maxFinder(arr) {
+    let maximumVal = Math.max(...arr)
     return maximumVal
 }
 // console.log(maxFinder([1,4,2,5,9,12]))
 
 //////////////// using loops /////////////////
 
-function FindMax(arr){
-    let max=0;
-    for(let i=0;i<arr.length;i++){
-        for(let j=i+1;j<arr.length;j++){
-            if(arr[i]>max){
-                max=arr[i]
+function FindMax(arr) {
+    let max = 0;
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            if (arr[i] > max) {
+                max = arr[i]
             }
         }
     }
