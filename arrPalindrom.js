@@ -1,3 +1,5 @@
+///////////// way 1 /////////////////
+
 function PalinromeArr(arr){
     let first=0
     let last=arr.length-1
@@ -11,3 +13,16 @@ function PalinromeArr(arr){
     return true
 }
 // console.log(PalinromeArr([1,2,3,3,2,1]))
+
+
+////////////// way 2 ////////////////
+
+function PalidromeArray(arr){
+    for(let i=0;i<arr.length/2;i++){
+        if(arr[i]!==arr[arr.length-1-i]){
+            return false
+        }
+    }
+    return true
+}
+console.log(PalidromeArray([1,2,3,2,1]))
