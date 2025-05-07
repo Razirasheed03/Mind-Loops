@@ -1,10 +1,10 @@
 ///////////// way 1 /////////////////
 
-function PalinromeArr(arr){
-    let first=0
-    let last=arr.length-1
-    while(first<last){
-        if(arr[first]!==arr[last]){
+function PalinromeArr(arr) {
+    let first = 0
+    let last = arr.length - 1
+    while (first < last) {
+        if (arr[first] !== arr[last]) {
             return false
         }
         first++
@@ -17,12 +17,12 @@ function PalinromeArr(arr){
 
 ////////////// way 2 ////////////////
 
-function PalidromeArray(arr){
-    for(let i=0;i<arr.length/2;i++){
-        if(arr[i]!==arr[arr.length-1-i]){
+function PalidromeArray(arr) {
+    for (let i = 0; i < arr.length / 2; i++) {
+        if (arr[i] !== arr[arr.length - 1 - i]) {
             return false
         }
     }
     return true
 }
-console.log(PalidromeArray([1,2,3,2,1]))
+console.log(PalidromeArray([1, 2, 3, 2, 1]))
