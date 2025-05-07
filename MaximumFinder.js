@@ -8,14 +8,15 @@ function maxFinder(arr){
 
 //////////////// using loops /////////////////
 
-function MaxFind(arr){
-    let max=arr[0]
-    for(let i=1;i<arr.length;i++){
-        if(arr[i]>max){
-            max=arr[i]
+function FindMax(arr){
+    let max=0;
+    for(let i=0;i<arr.length;i++){
+        for(let j=i+1;j<arr.length;j++){
+            if(arr[i]>max){
+                max=arr[i]
+            }
         }
     }
     return max
 }
-
-console.log(MaxFind([1,4,23,2,4,44]))
+// console.log(FindMax([1,2,5,3,77,44]))
