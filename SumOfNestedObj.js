@@ -1,3 +1,5 @@
+////////////// some of nested object ////////
+
 const sumOfNestedObject = (obj) => {
     let sum = 0
     for (let key in obj) {
