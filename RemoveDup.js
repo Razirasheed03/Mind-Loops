@@ -1,10 +1,10 @@
 function removeDup(arr) {
-    let ar = []
+    let arr2 = []
     for (let i = 0; i < arr.length; i++) {
-        if (!ar.includes(arr[i])) {
-            ar.push(arr[i])
+        if (!arr2.includes(arr[i])) {
+            arr2.push(arr[i])
         }
     }
-    return ar
+    return arr2
 }
 console.log(removeDup([1, 3, 2, 3, 4, 4, 5]))
