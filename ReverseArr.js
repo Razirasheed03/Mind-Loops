@@ -1,4 +1,4 @@
-///////////with built in methods ////////////
+///////////with built in methods ///////////
 
 function revArray(arr) {
     let revArr = arr.reverse()
@@ -7,7 +7,7 @@ function revArray(arr) {
 revArray([1, 2, 3, 4, 5,])
 
 
-/////////// without built in methods ////////////
+/////////// without built in methods ///////////
 
 function revArr(arr) {
     let newArr = []
