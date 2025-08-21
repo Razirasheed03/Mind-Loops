@@ -34,10 +34,10 @@ revArr([1, 2, 3, 4, 5])
 
 ///// using recursion /////
 
-function rev2Arr(arr){
-    if(arr.length===0){
+function rev2Arr(arr) {
+    if (arr.length === 0) {
         return []
     }
-    return [arr.pop(),...rev2Arr(arr)]
+    return [arr.pop(), ...rev2Arr(arr)]
 }
-// console.log(rev2Arr([1,2,3,4,5,6]))
+console.log(rev2Arr([1,2,3,4,5,6]))
