@@ -1,3 +1,4 @@
+//////// remove Dup in arr //////////
 function removeDup(arr) {
     let arr2 = []
     for (let i = 0; i < arr.length; i++) {
