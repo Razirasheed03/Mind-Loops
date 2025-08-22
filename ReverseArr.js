@@ -20,7 +20,7 @@ revArr([1, 2, 3, 4, 5])
 
 
 
-////////// using Shift /////////////
+////////// using Shift /////////
 
 function revArr(arr) {
     let newArr = []
@@ -40,4 +40,4 @@ function rev2Arr(arr) {
     }
     return [arr.pop(), ...rev2Arr(arr)]
 }
-console.log(rev2Arr([1,2,3,4,5,6]))
+console.log(rev2Arr([1, 2, 3, 4, 5, 6]))
