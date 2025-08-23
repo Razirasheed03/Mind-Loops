@@ -43,3 +43,11 @@ function rev2Arr(arr) {
 console.log(rev2Arr([1, 2, 3, 4, 5, 6]))
 
 ////// using while loop///////
+function revArr(arr) {
+    let newArr = []
+    while (arr.length) {
+        newArr.push(arr.pop())
+    }
+    console.log(newArr)
+}
+revArr([1, 2, 3, 4, 5])
