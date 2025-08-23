@@ -41,3 +41,5 @@ function rev2Arr(arr) {
     return [arr.pop(), ...rev2Arr(arr)]
 }
 console.log(rev2Arr([1, 2, 3, 4, 5, 6]))
+
+////// using while loop///////
