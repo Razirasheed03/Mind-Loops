@@ -11,7 +11,7 @@ function removeDup(arr) {
 console.log(removeDup([1, 3, 2, 3, 4, 4, 5]))
 
 
-//////// using set //////
+//////// using set  //////
 function removeDup(arr) {
     return [...new Set(arr)]
 }
