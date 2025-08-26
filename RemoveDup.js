@@ -24,3 +24,6 @@ function removeDup(arr) {
     return arr.filter((item, index) => arr.indexOf(item) === index)
 }
 console.log(removeDup([1, 3, 2, 3, 4, 4, 5]))
+
+
+///// using reduce /////////
