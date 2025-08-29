@@ -50,3 +50,17 @@ function removeDup(arr) {
     return res
 }
 console.log(removeDup([1, 3, 2, 3, 4, 4, 5]))
+
+
+function removeDup(arr) {
+    let seen = {}
+    let res = []
+    for (let val of arr) {
+        if (!seen[val]) {
+            seen[val] = true
+            res.push(val)
+        }
+    }
+    return res
+}
+console.log(removeDup([1, 3, 2, 3, 4, 4, 5]))
