@@ -22,3 +22,13 @@ function findMinimum(arr) {
 }
 
 ///////////////// using for of loop //////////////
+function findMinForOf(arr) {
+    let min = arr[0];
+    for (let num of arr) {
+        if (num < min) {
+            min = num;
+        }
+    }
+    return min;
+}
+console.log(findMinForOf([5,2,4,6,77,1]));
