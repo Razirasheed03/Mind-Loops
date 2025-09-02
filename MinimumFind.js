@@ -20,3 +20,5 @@ function findMinimum(arr) {
     }
     return arr
 }
+
+///////////////// using for of loop //////////////
