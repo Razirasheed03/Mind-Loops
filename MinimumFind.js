@@ -31,4 +31,4 @@ function findMinForOf(arr) {
     }
     return min;
 }
-console.log(findMinForOf([5,2,4,6,77,1]));
+console.log(findMinForOf([5, 2, 4, 6, 77, 1]));
