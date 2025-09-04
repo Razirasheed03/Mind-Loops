@@ -42,5 +42,5 @@ console.log(findMinForOf([5, 2, 4, 6, 77, 1]));
 function findMinSort(arr) {
     return [...arr].sort((a, b) => a - b)[0];
 }
-console.log(findMinSort([5,2,4,6,77,1]));
+console.log(findMinSort([5, 2, 4, 6, 77, 1]));
 
