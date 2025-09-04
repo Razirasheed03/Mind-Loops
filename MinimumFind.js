@@ -46,3 +46,13 @@ console.log(findMinSort([5, 2, 4, 6, 77, 1]));
 
 
 /////// using while loop ///////
+function findMinWhile(arr) {
+    let i = 0;
+    let min = arr[0];
+    while (i < arr.length) {
+        if (arr[i] < min) min = arr[i];
+        i++;
+    }
+    return min;
+}
+console.log(findMinWhile([5,2,4,6,77,1]));
