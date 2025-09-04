@@ -44,3 +44,5 @@ function findMinSort(arr) {
 }
 console.log(findMinSort([5, 2, 4, 6, 77, 1]));
 
+
+/////// using while loop ///////
