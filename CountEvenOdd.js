@@ -13,3 +13,6 @@ function CountEvenOdd(arr) {
 
 }
 CountEvenOdd([2, 4, 6, 3, 1, 10])
+
+
+/////// using filter method /////////
