@@ -9,7 +9,7 @@ function checkBothArrSame(arr1, arr2) {
         return false
     }
 }
-// console.log(checkBothArrSame([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]))
+console.log(checkBothArrSame([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]))
 
 
 
