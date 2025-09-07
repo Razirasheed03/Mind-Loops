@@ -5,9 +5,7 @@ function sumOfArray(arr) {
     return arr.reduce((a, b) => a + b, 0);
 }
 
-const numbers = [1, 2, 3, 4, 5];
-console.log("Sum of array:", sumOfArray(numbers))
-
+console.log(sumOfArray([3,4,5,6,7,8,9]))
 
 ///////////// without built in methods //////////////
 
