@@ -19,3 +19,11 @@ function SumArr(arr) {
 console.log(SumArr([1, 2, 3, 4, 5]))
 
 ///// using for of loop //////
+function sumUsingForOf(arr) {
+    let sum = 0;
+    for (let num of arr) {
+        sum += num;
+    }
+    return sum;
+}
+console.log(sumUsingForOf([1, 2, 3, 4, 5]));
