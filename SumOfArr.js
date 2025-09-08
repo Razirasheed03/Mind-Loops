@@ -5,7 +5,7 @@ function sumOfArray(arr) {
     return arr.reduce((a, b) => a + b, 0);
 }
 
-console.log(sumOfArray([3,4,5,6,7,8,9]))
+console.log(sumOfArray([3, 4, 5, 6, 7, 8, 9]))
 
 ///////////// without built in methods //////////////
 
@@ -17,3 +17,5 @@ function SumArr(arr) {
     return sum
 }
 console.log(SumArr([1, 2, 3, 4, 5]))
+
+///// using for of loop //////
