@@ -12,7 +12,7 @@ function PalinromeArr(arr) {
     }
     return true
 }
-// console.log(PalinromeArr([1,2,3,3,2,1]))
+console.log(PalinromeArr([1,2,3,3,2,1]))
 
 
 ////////////// way 2 ////////////////
