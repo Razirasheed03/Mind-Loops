@@ -26,3 +26,12 @@ function PalidromeArray(arr) {
     return true
 }
 console.log(PalidromeArray([1, 2, 3, 2, 1]))
+
+function isPalindromeArray(arr) {
+    let reversed = [...arr].reverse(); // make a reversed copy
+    return arr.every((val, idx) => val === reversed[idx]);
+}
+
+// Example
+console.log(isPalindromeArray([1, 2, 3, 2, 1])); // true
+console.log(isPalindromeArray([1, 2, 3]));       // false
