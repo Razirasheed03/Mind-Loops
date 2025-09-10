@@ -6,3 +6,6 @@ console.log(today + 15);
 atoday.setDate(today.getDate() + 15)
 
 console.log(atoday.toDateString());
+
+
+////// adding with milliseconds /////
