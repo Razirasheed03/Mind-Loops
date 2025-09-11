@@ -20,6 +20,7 @@ function findDup() {
 
 
 //////////// if we want each Count /////////////////
+
 function findDupCount() {
     const count = {}
     for (let i = 0; i < arr.length; i++) {
