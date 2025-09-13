@@ -28,3 +28,5 @@ function frequencyCount(arr) {
 // let nums = [2, 3, 2, 5, 3, 2, 1, 5];
 console.log(Object.fromEntries(frequencyCount(nums)));
 
+
+///// using reduce /////
