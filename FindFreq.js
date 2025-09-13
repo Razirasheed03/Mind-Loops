@@ -30,3 +30,13 @@ console.log(Object.fromEntries(frequencyCount(nums)));
 
 
 ///// using reduce /////
+function frequencyCount(arr) {
+  return arr.reduce((acc, num) => {
+    acc[num] = (acc[num] || 0) + 1;
+    return acc;
+  }, {});
+}
+
+// let nums = [2, 3, 2, 5, 3, 2, 1, 5];
+
+console.log(frequencyCount(nums));
