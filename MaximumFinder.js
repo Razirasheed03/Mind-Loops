@@ -20,3 +20,5 @@ function FindMax(arr) {
     return max
 }
 // console.log(FindMax([1,2,5,3,77,44]))
+
+///// using reduce //////
