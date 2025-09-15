@@ -21,12 +21,10 @@ function FindMax(arr) {
 }
 // console.log(FindMax([1,2,5,3,77,44]))
 
-///// using reduce //////
 //////////// using reduce method ////////////
 
 function findMaxWithReduce(arr) {
     return arr.reduce((max, current) => current > max ? current : max, arr[0]);
 }
 
-// Example
 console.log(findMaxWithReduce([1, 2, 5, 3, 77, 44]));
