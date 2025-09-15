@@ -1,4 +1,5 @@
 //////// remove Dup in arr //////////
+
 function removeDup(arr) {
     let arr2 = []
     for (let i = 0; i < arr.length; i++) {
@@ -12,6 +13,7 @@ console.log(removeDup([1, 3, 2, 3, 4, 4, 5]))
 
 
 //////// using set  //////
+
 function removeDup(arr) {
     return [...new Set(arr)]
 }
@@ -27,6 +29,7 @@ console.log(removeDup([1, 3, 2, 3, 4, 4, 5]))
 
 
 /////////  using reduce /////////
+
 function removeDup(arr) {
     return arr.reduce((acc, val) => {
         if (!acc.includes(val)) acc.push(val)

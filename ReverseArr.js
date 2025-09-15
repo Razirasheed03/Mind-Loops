@@ -19,7 +19,6 @@ function revArr(arr) {
 revArr([1, 2, 3, 4, 5])
 
 
-
 ////////// using Shift /////////
 
 function revArr(arr) {
@@ -42,7 +41,8 @@ function rev2Arr(arr) {
 }
 console.log(rev2Arr([1, 2, 3, 4, 5, 6]))
 
-////// using while loop. //////
+////// using while loop //////
+
 function revArr(arr) {
     let newArr = []
     while (arr.length) {
